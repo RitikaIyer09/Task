@@ -1,0 +1,94 @@
+body {
+  display: block;
+  overflow-x: hidden;
+  background-color:#e8e7e6;
+}
+nav {
+  background-color:#303242;
+}
+
+img{
+	height:30px;
+	width:30px;
+}
+.navbar-brand {
+  font-size: 12px;
+  font-weight: 900;
+  color: #683aa4;
+  margin-left:0;
+  border-left:0;
+}
+nav li{
+	margin-right:20px;
+}
+nav ul li a {
+  color: white;
+  font-size: 14px;
+  font-weight:500;
+}
+nav ul li a:hover {
+  color: #683aa4;
+}
+.navbar-right{
+	margin-left:26em;
+}
+.signup{
+	border:solid grey 1px;
+	padding:1.5em;
+	border-radius:0.5em;
+	background-color:white;
+}
+.top{
+	color:green;
+	font-size:0.85em;
+	font-weight:600;
+	background-color:#d7fce0;
+}
+.dropbtn {
+  background-color: #303242;
+  color: white;
+  font-size: 14px;
+  border: none;
+}
+
+.dropbtn:hover {
+  background-color:#07bdf5;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#303242;
+  width: 14em;
+  right: 0;
+}
+
+.dropdown-content a {
+  color: white;
+  padding-right:2em;
+  padding-left:1em;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+	background-color:#07bdf5;
+	color:white;
+}
+
+.show {
+	display: block;
+}
+
+.divider {
+  border-bottom: solid 1px grey;
+  clear: both;
+  height: 1em;
+  width: 100%;
+  
+}
